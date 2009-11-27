@@ -2,15 +2,15 @@
 
 This Redmine plugin will activate the "Hide my email address" preference by default.
 
-== Installation ==
+== Installation
 
 In your redmine directory, execute the following:
 
-    ruby script/plugin install git://github.com/splendeo/redmine_hide_emails_by_default.git
-    mv vendor/plugins/redmine_hide_emails_by_default vendor/plugins/engines
-    rake db:migrate_plugins RAILS_ENV=production
+  ruby script/plugin install git://github.com/splendeo/redmine_hide_emails_by_default.git
+  mv vendor/plugins/redmine_hide_emails_by_default vendor/plugins/engines
+  rake db:migrate_plugins RAILS_ENV=production
 
-(Change production for test or development if needed)
+(Change environment to test or development if needed)
 
 Re-start your web server.
 

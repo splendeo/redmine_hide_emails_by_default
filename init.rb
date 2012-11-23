@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'redmine'
 
 Redmine::Plugin.register :redmine_hide_emails_by_default do
